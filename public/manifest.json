@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/web-manifest.json",
+  "short_name": "Moveread",
+  "name": "Moveread",
+  "description": "An AI that reads handwritten chess scoresheets",
+  "background_color": "#1a202c",
+  "theme_color": "#0f9d58",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/mrlogo.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "/mrlogo128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ]
+}

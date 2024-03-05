@@ -1,7 +1,9 @@
 set dotenv-load := true
 
+default: config init
+
 # Initialize android project
-init: config
+init:
   yarn
   yarn run build
   npx cap sync
@@ -65,3 +67,39 @@ install PHONE_URL="$PHONE_URL":
 run PHONE_URL="$PHONE_URL" APP="$APP_ID":
   powershell.exe adb -s {{PHONE_URL}} shell cmd activity start-activity {{APP}}/.MainActivity
   just dev
+
+# Deploy '.' into GitHub Pages
+deploy-.:
+  gh workflow run deploy-..yml --ref main
+
+# Deploy '.' into GitHub Pages
+deploy-.:
+  gh workflow run deploy-..yml --ref main
+
+# Deploy '.' into GitHub Pages
+deploy-.:
+  gh workflow run deploy-..yml --ref main
+
+# Deploy '.' into GitHub Pages
+deploy-.:
+  gh workflow run deploy-..yml --ref main
+
+# Deploy '.' into GitHub Pages
+deploy-.:
+  gh workflow run deploy-..yml --ref main
+
+# Deploy '.' into GitHub Pages
+deploy-.:
+  gh workflow run deploy-..yml --ref main
+
+# Deploy '.' into GitHub Pages
+deploy:
+  gh workflow run deploy.yml --ref main
+
+# Deploy 'src' into GitHub Pages
+deploy-src:
+  gh workflow run deploy-src.yml --ref main
+
+# Deploy '.' into GitHub Pages
+deploy:
+  gh workflow run deploy.yml --ref main

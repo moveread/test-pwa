@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Test PWA</string>
+    <string name="title_activity_main">Test PWA</string>
+    <string name="package_name">com.moveread.testpwa</string>
+    <string name="custom_url_scheme">com.moveread.testpwa</string>
+</resources>
