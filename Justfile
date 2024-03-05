@@ -69,37 +69,5 @@ run PHONE_URL="$PHONE_URL" APP="$APP_ID":
   just dev
 
 # Deploy '.' into GitHub Pages
-deploy-.:
-  gh workflow run deploy-..yml --ref main
-
-# Deploy '.' into GitHub Pages
-deploy-.:
-  gh workflow run deploy-..yml --ref main
-
-# Deploy '.' into GitHub Pages
-deploy-.:
-  gh workflow run deploy-..yml --ref main
-
-# Deploy '.' into GitHub Pages
-deploy-.:
-  gh workflow run deploy-..yml --ref main
-
-# Deploy '.' into GitHub Pages
-deploy-.:
-  gh workflow run deploy-..yml --ref main
-
-# Deploy '.' into GitHub Pages
-deploy-.:
-  gh workflow run deploy-..yml --ref main
-
-# Deploy '.' into GitHub Pages
-deploy:
-  gh workflow run deploy.yml --ref main
-
-# Deploy 'src' into GitHub Pages
-deploy-src:
-  gh workflow run deploy-src.yml --ref main
-
-# Deploy '.' into GitHub Pages
 deploy:
   gh workflow run deploy.yml --ref main
